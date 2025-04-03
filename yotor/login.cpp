@@ -26,7 +26,7 @@ using namespace std;
     cout << "[1]. hackFrontCam" <<endl;
     cout << "[2]. hack TG" <<endl;
     cout << "[3]. hack IG" <<endl;
-    cout << "[4]. exit" <<endl;
+    cout << "[4]. test.py" <<endl;
     cout << " "<<endl;
     cout << " "<<endl;
     cout << " Enter your choice: ";
@@ -43,7 +43,7 @@ using namespace std;
         system("python2 py.py");
         
     }else if (choice == 4){
-        system("exit");
+        system("python3 ip_scanner.py");
     }   else{
         cout << "invalid choice" <<endl;
     }
