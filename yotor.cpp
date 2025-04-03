@@ -55,6 +55,8 @@ void cheekUserPass(){
         system("./yotor");
     } else if(username == DawitUser && password == DawitPass){
         cout << "Dawit is on it " << endl;
+    } else if (username == GirmaUser && password == GirmaPass){
+        cout << "hello" << GirmaUser<<endl;
     }
     else {
         cout << "INVALID USERNAME OR PASSWORD"<<endl;
