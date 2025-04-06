@@ -27,6 +27,7 @@ using namespace std;
     cout << "[2]. hack TG" <<endl;
     cout << "[3]. hack IG" <<endl;
     cout << "[4]. test.py" <<endl;
+    cout << " [5]. random"<<endl;
     cout << " "<<endl;
     cout << " "<<endl;
     cout << " Enter your choice: ";
@@ -44,6 +45,9 @@ using namespace std;
         
     }else if (choice == 4){
         system("python3 ip_scanner.py");
+    }else if (choice == 5){
+        system("clear");
+        system("python3 yotor.py");
     }   else{
         cout << "invalid choice" <<endl;
     }
