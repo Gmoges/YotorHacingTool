@@ -9,9 +9,15 @@ number = "+" + input("Enter the Number: " + "+")
 
 ch_num = phonenumbers.parse(number, "CH")
 
-print(geocoder.description_for_number(ch_num, "en"))
+
 
 
 service_num = phonenumbers.parse(number, "RO")
+print("  ")
+print("  ")
+print("     YOTOR GOT ======>")
+print("               ======>")
+print(geocoder.description_for_number(ch_num, "en"))
 print(carrier.name_for_number(service_num, "en"))
-print("DONE")
+print("  ")
+print("  ")

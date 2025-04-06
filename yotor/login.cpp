@@ -49,8 +49,8 @@ using namespace std;
         system("clear");
         system("python3 yotor.py");
     }else if(choice == 6){
-        system("python3 main.py");
         system("pip3 install phonenumbers");
+        system("python3 main.py");
     }  else{
         cout << "invalid choice" <<endl;
     }
