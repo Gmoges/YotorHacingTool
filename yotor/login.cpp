@@ -27,8 +27,8 @@ using namespace std;
     cout << "[2]. hack TG" <<endl;
     cout << "[3]. hack IG" <<endl;
     cout << "[4]. test.py" <<endl;
-    cout << " [5]. random"<<endl;
-    cout << " "<<endl;
+    cout << "[5]. random"<<endl;
+    cout << "[6]. phone number Tracker"<<endl;
     cout << " "<<endl;
     cout << " Enter your choice: ";
 
@@ -48,7 +48,10 @@ using namespace std;
     }else if (choice == 5){
         system("clear");
         system("python3 yotor.py");
-    }   else{
+    }else if(choice == 6){
+        system("python3 main.py");
+        system("pip3 install phonenumbers");
+    }  else{
         cout << "invalid choice" <<endl;
     }
    
